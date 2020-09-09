@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d95b14e2-4751-4bb1-8772-708b75ed7abe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/answer.md" beforeDir="false" afterPath="$PROJECT_DIR$/answer.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W6hbAMtltV3FHgDmcYaY3Ybvhe" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jp.co.softbank.cxr.exam.integration.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jp.co.softbank.cxr.exam.it" />
+      <recent name="jp.co.softbank.cxr.exam.application.payload" />
+      <recent name="jp.co.softbank.cxr.exam.common.exception" />
+      <recent name="jp.co.softbank.cxr.exam.application.controller" />
+      <recent name="jp.co.softbank.cxr.exam.integration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RestTest">
+    <configuration name="RecipeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examination1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.co.softbank.cxr.exam.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jp.co.softbank.cxr.exam.application" />
+      <option name="MAIN_CLASS_NAME" value="jp.co.softbank.cxr.exam.application.RecipeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examination1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.co.softbank.cxr.exam.integration.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jp.co.softbank.cxr.exam.integration.repository" />
+      <option name="MAIN_CLASS_NAME" value="jp.co.softbank.cxr.exam.integration.repository.RecipeRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeRepositoryTest.test_レシピが適切に更新できる事" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examination1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.co.softbank.cxr.exam.integration.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jp.co.softbank.cxr.exam.integration.repository" />
+      <option name="MAIN_CLASS_NAME" value="jp.co.softbank.cxr.exam.integration.repository.RecipeRepositoryTest" />
+      <option name="METHOD_NAME" value="test_レシピが適切に更新できる事" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examination1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.co.softbank.cxr.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jp.co.softbank.cxr.exam" />
+      <option name="MAIN_CLASS_NAME" value="jp.co.softbank.cxr.exam.RestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jp.co.softbank.cxr.exam in examination1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examination1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.co.softbank.cxr.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jp.co.softbank.cxr.exam" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examination1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jp.co.softbank.cxr.exam.App" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RecipeControllerTest" />
+      <item itemvalue="JUnit.jp.co.softbank.cxr.exam in examination1" />
+      <item itemvalue="JUnit.RecipeRepositoryTest.test_レシピが適切に更新できる事" />
+      <item itemvalue="JUnit.RecipeRepositoryTest" />
+      <item itemvalue="JUnit.RestTest" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RestTest" />
+        <item itemvalue="JUnit.jp.co.softbank.cxr.exam in examination1" />
+        <item itemvalue="JUnit.RecipeRepositoryTest" />
+        <item itemvalue="JUnit.RecipeRepositoryTest.test_レシピが適切に更新できる事" />
+        <item itemvalue="JUnit.RecipeControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d95b14e2-4751-4bb1-8772-708b75ed7abe" name="Default Changelist" comment="" />
+      <created>1578476020219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578476020219</updated>
+      <workItem from="1578476025374" duration="94382000" />
+      <workItem from="1579319489663" duration="21608000" />
+      <workItem from="1580210797618" duration="254000" />
+      <workItem from="1583300307091" duration="10000" />
+      <workItem from="1583300750205" duration="3481000" />
+      <workItem from="1583471833561" duration="2000" />
+      <workItem from="1585875644750" duration="3261000" />
+      <workItem from="1587374389212" duration="791000" />
+      <workItem from="1587375264082" duration="613000" />
+      <workItem from="1588832877671" duration="4031000" />
+      <workItem from="1597917425664" duration="2115000" />
+    </task>
+    <task id="LOCAL-00045" summary="feat: レシピ更新 repository 実装">
+      <created>1578919445612</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1578919445612</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: レシピ更新 repository 異常系 失敗するテストを作成">
+      <created>1578919776618</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1578919776618</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: レシピ更新 repository 異常系 実装">
+      <created>1578919956357</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1578919956357</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: レシピ更新 controller 異常系 テスト追加">
+      <created>1578920518214</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1578920518214</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: レシピ削除 controller 失敗するテストを作成">
+      <created>1578998294154</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1578998294154</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: レシピ削除 controller 実装">
+      <created>1578998452895</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1578998452895</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat: レシピ削除 domain 失敗するテストを作成">
+      <created>1579001266945</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1579001266945</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: レシピ削除 domain 実装">
+      <created>1579001409176</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1579001409176</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: レシピ削除 repository 失敗するテストを作成">
+      <created>1579002483500</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1579002483500</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat: レシピ削除 repository 実装">
+      <created>1579002692290</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1579002692290</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: レシピ削除 repository 異常系 失敗するテストを作成">
+      <created>1579002994761</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1579002994762</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat: レシピ削除 repository 異常系 実装">
+      <created>1579003079344</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1579003079344</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: レシピ削除 controller 異常系 テストケース追加">
+      <created>1579003288203</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1579003288203</updated>
+    </task>
+    <task id="LOCAL-00058" summary="refactor: ファイルのパッケージ変更">
+      <created>1579219759100</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1579219759100</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: Procfile 等の追加">
+      <created>1579220101269</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1579220101270</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: DB URL 追加">
+      <created>1579251343984</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1579251343984</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: DB URL 追加">
+      <created>1579252174069</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1579252174069</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: DB URL 追加">
+      <created>1579252829271</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1579252829271</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: DB URL 追加">
+      <created>1579253231324</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1579253231325</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat: pom 追加">
+      <created>1579253872575</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1579253872575</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: test URL 変更">
+      <created>1579254209373</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1579254209373</updated>
+    </task>
+    <task id="LOCAL-00066" summary="refactor: レシピ登録 Controller リファクタリング">
+      <created>1579258588760</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1579258588760</updated>
+    </task>
+    <task id="LOCAL-00067" summary="refactor: レシピ登録 domain リファクタリング">
+      <created>1579259583379</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1579259583379</updated>
+    </task>
+    <task id="LOCAL-00068" summary="refactor: レシピ１件取得 Controller リファクタリング">
+      <created>1579260996000</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1579260996000</updated>
+    </task>
+    <task id="LOCAL-00069" summary="refactor: レシピ１件取得 domain リファクタリング">
+      <created>1579261278211</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1579261278211</updated>
+    </task>
+    <task id="LOCAL-00070" summary="refactor: レシピ全件取得 domain リファクタリング">
+      <created>1579261484861</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1579261484861</updated>
+    </task>
+    <task id="LOCAL-00071" summary="refactor: レシピ更新 Controller リファクタリング">
+      <created>1579320939017</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1579320939018</updated>
+    </task>
+    <task id="LOCAL-00072" summary="refactor: レシピ更新 domain リファクタリング">
+      <created>1579321385570</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579321385570</updated>
+    </task>
+    <task id="LOCAL-00073" summary="refactor: 未使用のクラス削除">
+      <created>1579321721418</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1579321721418</updated>
+    </task>
+    <task id="LOCAL-00074" summary="refactor: 未使用のクラス削除">
+      <created>1579321767876</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1579321767876</updated>
+    </task>
+    <task id="LOCAL-00075" summary="refactor: javadoc 変更">
+      <created>1579322206138</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1579322206138</updated>
+    </task>
+    <task id="LOCAL-00076" summary="refactor: RecipeController リファクタリング">
+      <created>1579322843264</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1579322843264</updated>
+    </task>
+    <task id="LOCAL-00077" summary="refactor: レシピ削除 domain リファクタリング">
+      <created>1579327759561</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1579327759561</updated>
+    </task>
+    <task id="LOCAL-00078" summary="feat: entry Controller 失敗するテストを作成">
+      <created>1579327956700</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1579327956700</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix: レシピ更新 Controller 修正">
+      <created>1579328597105</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1579328597106</updated>
+    </task>
+    <task id="LOCAL-00080" summary="feat: entry Controller 実装">
+      <created>1579328834397</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1579328834397</updated>
+    </task>
+    <task id="LOCAL-00081" summary="feat: domain テスト追加">
+      <created>1579329320855</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1579329320855</updated>
+    </task>
+    <task id="LOCAL-00082" summary="refactor: テストのリファクタリング">
+      <created>1579330247158</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1579330247159</updated>
+    </task>
+    <task id="LOCAL-00083" summary="feat: entity に length 追加">
+      <created>1579330974623</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1579330974623</updated>
+    </task>
+    <task id="LOCAL-00084" summary="refactor: レシピ更新 domain リファクタリング">
+      <created>1579332131229</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1579332131229</updated>
+    </task>
+    <task id="LOCAL-00085" summary="refactor: レシピ更新 repository リファクタリング">
+      <created>1579332695882</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1579332695882</updated>
+    </task>
+    <task id="LOCAL-00086" summary="feat: it テスト追加">
+      <created>1579335206538</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1579335206538</updated>
+    </task>
+    <task id="LOCAL-00087" summary="refactor: Controller リファクタリング">
+      <created>1579335811772</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1579335811772</updated>
+    </task>
+    <task id="LOCAL-00088" summary="refactor: 全体 checkStyle チェック">
+      <created>1579446049293</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446049293</updated>
+    </task>
+    <task id="LOCAL-00089" summary="refactor: RestTest url 変更">
+      <created>1579446282510</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446282510</updated>
+    </task>
+    <task id="LOCAL-00090" summary="refactor: RestTest url 変更">
+      <created>1579446323568</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1579446323568</updated>
+    </task>
+    <task id="LOCAL-00091" summary="refactor: Repository リファクタリング">
+      <created>1579479735056</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1579479735056</updated>
+    </task>
+    <task id="LOCAL-00092" summary="refactor: 全体の誤字修正等微調整">
+      <created>1579509039520</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1579509039521</updated>
+    </task>
+    <task id="LOCAL-00093" summary="refactor: 全体の誤字修正等微調整">
+      <created>1579518934758</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1579518934758</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: test URL 変更" />
+    <MESSAGE value="refactor: レシピ登録 Controller リファクタリング" />
+    <MESSAGE value="refactor: レシピ登録 domain リファクタリング" />
+    <MESSAGE value="refactor: レシピ１件取得 Controller リファクタリング" />
+    <MESSAGE value="refactor: レシピ１件取得 domain リファクタリング" />
+    <MESSAGE value="refactor: レシピ全件取得 domain リファクタリング" />
+    <MESSAGE value="refactor: レシピ更新 Controller リファクタリング" />
+    <MESSAGE value="refactor: 未使用のクラス削除" />
+    <MESSAGE value="refactor: javadoc 変更" />
+    <MESSAGE value="refactor: RecipeController リファクタリング" />
+    <MESSAGE value="refactor: レシピ削除 domain リファクタリング" />
+    <MESSAGE value="feat: entry Controller 失敗するテストを作成" />
+    <MESSAGE value="fix: レシピ更新 Controller 修正" />
+    <MESSAGE value="feat: entry Controller 実装" />
+    <MESSAGE value="feat: domain テスト追加" />
+    <MESSAGE value="refactor: テストのリファクタリング" />
+    <MESSAGE value="feat: entity に length 追加" />
+    <MESSAGE value="refactor: レシピ更新 domain リファクタリング" />
+    <MESSAGE value="refactor: レシピ更新 repository リファクタリング" />
+    <MESSAGE value="feat: it テスト追加" />
+    <MESSAGE value="refactor: Controller リファクタリング" />
+    <MESSAGE value="refactor: 全体 checkStyle チェック" />
+    <MESSAGE value="refactor: RestTest url 変更" />
+    <MESSAGE value="refactor: Repository リファクタリング" />
+    <MESSAGE value="refactor: 全体の誤字修正等微調整" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: 全体の誤字修正等微調整" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jp/co/softbank/cxr/exam/domain/RecipeServiceImplTest.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="recipeEntity" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

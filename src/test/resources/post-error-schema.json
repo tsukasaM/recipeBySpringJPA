@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GET Recipe",
+  "type": "object",
+  "required": ["message", "recipe"],
+  "properties" : {
+    "message": {
+      "type": "string"
+    },
+    "recipe": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/item"
+      }
+    }
+  },
+  "definitions": {
+    "item": {
+      "type": "object",
+      "required": ["title", "making_time", "serves", "ingredients", "cost"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+         "marking_time": {
+          "type": "string"
+        },
+         "serves": {
+          "type": "string"
+        },
+         "ingredients": {
+          "type": "string"
+        },
+         "cost": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
