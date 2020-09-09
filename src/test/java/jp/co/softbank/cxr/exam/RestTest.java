@@ -22,7 +22,9 @@ class RestTest {
   
   @BeforeEach
   void setupAll() {
-    RestAssured.baseURI = "https://secret-scrubland-12818.herokuapp.com/";
+
+//    RestAssured.baseURI = "https://secret-scrubland-12818.herokuapp.com/";
+    RestAssured.baseURI = "http://localhost:8080/";
   }
   
   

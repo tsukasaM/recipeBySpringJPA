@@ -24,7 +24,7 @@ import org.springframework.stereotype.Service;
 /**
  * {@link RecipeService} の実装クラスです.
  */
-@Service
+//@Service
 public class RecipeServiceImpl implements RecipeService {
 
   @Autowired
