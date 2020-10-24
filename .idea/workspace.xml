@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2049a94b-432b-431e-9aea-043a910d8d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examination1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/co/softbank/cxr/exam/domain/repository/RecipeRepositoryJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/co/softbank/cxr/exam/domain/service/RecipeServiceImplByJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jp/co/softbank/cxr/exam/domain/RecipeServiceImplByJpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2db/sampledb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2db/sampledb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2db/sampledb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2db/sampledb.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/co/softbank/cxr/exam/domain/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jp/co/softbank/cxr/exam/domain/service/RecipeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jp/co/softbank/cxr/exam/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jp/co/softbank/cxr/exam/RestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jp/co/softbank/cxr/exam/domain/service/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jp/co/softbank/cxr/exam/domain/service/RecipeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jp/co/softbank/cxr/exam/RestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jp/co/softbank/cxr/exam/RestTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +23,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -146,7 +138,6 @@
         <item itemvalue="JUnit.RecipeServiceImplByJpaTest.test_レシピを適切に登録できる事" />
         <item itemvalue="JUnit.RecipeServiceImplByJpaTest" />
         <item itemvalue="JUnit.RecipeServiceImplByJpaTest.test_指定したIDのレシピを適切に更新できる事" />
-        <item itemvalue="JUnit.RecipeServiceImplByJpaTest.test_指定したIDのレシピを適切に削除できる事" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +151,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599641680393</updated>
-      <workItem from="1599641685299" duration="4575000" />
+      <workItem from="1599641685299" duration="4857000" />
+      <workItem from="1600164536422" duration="159000" />
+      <workItem from="1600429110559" duration="2491000" />
+      <workItem from="1601376223950" duration="645000" />
+      <workItem from="1601639214055" duration="1956000" />
     </task>
     <servers />
   </component>
@@ -172,7 +167,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

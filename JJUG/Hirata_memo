@@ -1,0 +1,26 @@
+バックエンドのテストのうち、 AnnouncementManagerImplTestのカバレッジが計測できない。
+
+----
+提案
+カバレッジ以前の問題として、PanacheのActive Recordスタイルの使い方が良くない。ドメインとJPAが結合している。
+リポジトリスタイルを使い、ドメインはQuarkusTestでない普通のUTを使うことを推奨する。
+実DBテストとモックが混ざっている。実DBテストならばPanacheMockしない。モックに倒すならDbSetup使わない。
+----
+解決案
+Annoucement...Test以外を実行し、Annoucement...Testをofflineで実行して結果をマージする。
+その際、QuarkusTest側の書き込みのみ発生するように、テストのstatic初期化ブロックからアプリ側クラスを触らないようにする。
+----
+調査
+PanacheEntityをロードしただけで jacoco on-the-flyモードでは計測できなくなる。
+試しにCryptoResolverImplにAnnouncementEntity.findByIdを追加したところ、そのコードが実行されなくても計測できなくなった。
+→ offline instrumentationで計測するしかない。
+公式ドキュメントによると、コンストラクタインジェクションを使うとき、CDI用にデフォルトコストラクタを生成する処理が入ることにより、テスト対象クラスのサブクラスが生成されて計測に失敗する（元クラスが実行されないので0%）。
+https://quarkus.io/guides/tests-with-coverage
+ただし Annoucement... はlombokでデフォルトコストラクタを生成するため、これに該当しないと思われる。
+別のissueにて、jacocoのoffline instrumentationのjacoco.exec書き込み処理が二重に走るという事象が報告されている。
+https://github.com/quarkusio/quarkus/issues/9837
+おそらくこの問題と思われる。
+QuarkusTestとJUnitで同一ファイル（jacoco.exec）書き込みが発生し、どちらか一方にAnnoucement...のカバレッジが入っており、片方にはない。
+jacoco offline instrumentationだと計測できることもある（できないこともある）。これも同一ファイル書き込みのせいと思われる。
+static変数の初期化で使用している Utils#toSqlTimestamp 呼び出しを無くすと、offline instrumentationで100%計測できるようになる。
+static初期化時点で本体コードを触らなければ、QuarkusTest側の書き込みのみになり、計測できていると思われる。
